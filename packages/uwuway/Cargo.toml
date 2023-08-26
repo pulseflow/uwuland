@@ -1,0 +1,37 @@
+[package]
+name = "uwuway"
+version = "0.1.0"
+authors.workspace = true
+edition.workspace = true
+homepage.workspace = true
+repository.workspace = true
+readme.workspace = true
+license.workspace = true
+license-file.workspace = true
+categories.workspace = true
+keywords.workspace = true
+
+[profile.release]
+strip = true
+opt-level = 3
+lto = true
+codegen-units = 1
+
+[dependencies]
+tracing-subscriber = { workspace = true }
+tracing-appender = { workspace = true }
+bitflags = { workspace = true }
+colored = { workspace = true }
+clap = { workspace = true }
+anyhow = { workspace = true }
+log = { workspace = true }
+tokio = { workspace = true }
+chrono = { workspace = true }
+serde = { workspace = true }
+smithay = { workspace = true }
+smithay-drm-extras = { workspace = true }
+once_cell = { workspace = true }
+crossbeam-channel = { workspace = true }
+lazy_static = { workspace = true }
+parking_lot = { workspace = true }
+xdg = { workspace = true }

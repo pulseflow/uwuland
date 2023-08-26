@@ -1,0 +1,16 @@
+{
+	"[rust]": {
+		"editor.defaultFormatter": "rust-lang.rust-analyzer"
+	},
+	"rust-analyzer.procMacro.enable": true,
+	"rust-analyzer.diagnostics.experimental.enable": false,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"Cargo.toml": "Cargo.lock, .rustfmt.toml, rust-toolchain.toml, .clippy.toml",
+		"README.md": "CODE_OF_CONDUCT.md, CONTRIBUTING.md, LICENSE, ROADMAP.md",
+		"flake.nix": "flake.lock, Makefile"
+	},
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-issue-config.json": "file:///Users/paulie/Projects/%40pulse/uwuland/.github/ISSUE_TEMPLATE/config.yml"
+	}
+}

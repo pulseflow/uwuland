@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"rust-lang.rust-analyzer",
+		"EditorConfig.EditorConfig",
+		"slevesque.shader",
+		"tamasfe.even-better-toml"
+	]
+}
